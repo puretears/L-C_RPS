@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027CF9B22B3A7FFF00346D8D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CF9B12B3A7FFF00346D8D /* Model.swift */; };
+		027CF9B42B3A811500346D8D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CF9B32B3A811500346D8D /* LoadingView.swift */; };
 		028A410D2B3A723000EFC99C /* RockPaperScissorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A410C2B3A723000EFC99C /* RockPaperScissorsApp.swift */; };
 		028A410F2B3A723000EFC99C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A410E2B3A723000EFC99C /* ContentView.swift */; };
 		028A41112B3A723100EFC99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028A41102B3A723100EFC99C /* Assets.xcassets */; };
 		028A41142B3A723100EFC99C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028A41132B3A723100EFC99C /* Preview Assets.xcassets */; };
+		028A411D2B3A763000EFC99C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A411C2B3A763000EFC99C /* WelcomeView.swift */; };
+		028A411F2B3A763D00EFC99C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A411E2B3A763D00EFC99C /* GameView.swift */; };
+		2E1524252B3BC05100A71214 /* KnightWarrior.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E1524242B3BC05100A71214 /* KnightWarrior.otf */; };
+		2E15242F2B3E620700A71214 /* YouLose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E15242B2B3E620600A71214 /* YouLose.mp3 */; };
+		2E1524302B3E620700A71214 /* Select.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E15242C2B3E620600A71214 /* Select.m4a */; };
+		2E1524312B3E620700A71214 /* Start.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E15242D2B3E620600A71214 /* Start.m4a */; };
+		2E1524322B3E620700A71214 /* YouWin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E15242E2B3E620700A71214 /* YouWin.mp3 */; };
+		2E2B50792B3FB9DF00EE890D /* TouchDetectingViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B50772B3FB9DF00EE890D /* TouchDetectingViewRepresentable.swift */; };
+		2E2B507A2B3FB9DF00EE890D /* TouchDetectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B50782B3FB9DF00EE890D /* TouchDetectingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		028A41092B3A723000EFC99C /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		027CF9B12B3A7FFF00346D8D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		027CF9B32B3A811500346D8D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		028A41092B3A723000EFC99C /* L&C's RPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L&C's RPS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		028A410C2B3A723000EFC99C /* RockPaperScissorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsApp.swift; sourceTree = "<group>"; };
 		028A410E2B3A723000EFC99C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		028A41102B3A723100EFC99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028A41132B3A723100EFC99C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		028A411C2B3A763000EFC99C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		028A411E2B3A763D00EFC99C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		2E1524242B3BC05100A71214 /* KnightWarrior.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KnightWarrior.otf; sourceTree = "<group>"; };
+		2E15242A2B3BC15200A71214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2E15242B2B3E620600A71214 /* YouLose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YouLose.mp3; sourceTree = "<group>"; };
+		2E15242C2B3E620600A71214 /* Select.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Select.m4a; sourceTree = "<group>"; };
+		2E15242D2B3E620600A71214 /* Start.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Start.m4a; sourceTree = "<group>"; };
+		2E15242E2B3E620700A71214 /* YouWin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YouWin.mp3; sourceTree = "<group>"; };
+		2E2B50772B3FB9DF00EE890D /* TouchDetectingViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDetectingViewRepresentable.swift; sourceTree = "<group>"; };
+		2E2B50782B3FB9DF00EE890D /* TouchDetectingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDetectingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		027CF9B02B3A7FCE00346D8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				027CF9B12B3A7FFF00346D8D /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		028A41002B3A723000EFC99C = {
 			isa = PBXGroup;
 			children = (
@@ -43,7 +74,7 @@
 		028A410A2B3A723000EFC99C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				028A41092B3A723000EFC99C /* RockPaperScissors.app */,
+				028A41092B3A723000EFC99C /* L&C's RPS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +82,11 @@
 		028A410B2B3A723000EFC99C /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
+				2E15242A2B3BC15200A71214 /* Info.plist */,
+				027CF9B02B3A7FCE00346D8D /* Model */,
+				028A411B2B3A75CC00EFC99C /* Resources */,
+				028A411A2B3A75BF00EFC99C /* Views */,
 				028A410C2B3A723000EFC99C /* RockPaperScissorsApp.swift */,
-				028A410E2B3A723000EFC99C /* ContentView.swift */,
-				028A41102B3A723100EFC99C /* Assets.xcassets */,
-				028A41122B3A723100EFC99C /* Preview Content */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -67,12 +99,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		028A411A2B3A75BF00EFC99C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B50762B3FB9DF00EE890D /* DeveloperView */,
+				028A410E2B3A723000EFC99C /* ContentView.swift */,
+				028A411C2B3A763000EFC99C /* WelcomeView.swift */,
+				027CF9B32B3A811500346D8D /* LoadingView.swift */,
+				028A411E2B3A763D00EFC99C /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		028A411B2B3A75CC00EFC99C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E15242C2B3E620600A71214 /* Select.m4a */,
+				2E15242D2B3E620600A71214 /* Start.m4a */,
+				2E15242E2B3E620700A71214 /* YouWin.mp3 */,
+				2E15242B2B3E620600A71214 /* YouLose.mp3 */,
+				2E1524242B3BC05100A71214 /* KnightWarrior.otf */,
+				028A41122B3A723100EFC99C /* Preview Content */,
+				028A41102B3A723100EFC99C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2E2B50762B3FB9DF00EE890D /* DeveloperView */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B50772B3FB9DF00EE890D /* TouchDetectingViewRepresentable.swift */,
+				2E2B50782B3FB9DF00EE890D /* TouchDetectingView.swift */,
+			);
+			path = DeveloperView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		028A41082B3A723000EFC99C /* RockPaperScissors */ = {
+		028A41082B3A723000EFC99C /* L&C's RPS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 028A41172B3A723100EFC99C /* Build configuration list for PBXNativeTarget "RockPaperScissors" */;
+			buildConfigurationList = 028A41172B3A723100EFC99C /* Build configuration list for PBXNativeTarget "L&C's RPS" */;
 			buildPhases = (
 				028A41052B3A723000EFC99C /* Sources */,
 				028A41062B3A723000EFC99C /* Frameworks */,
@@ -82,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = RockPaperScissors;
+			name = "L&C's RPS";
 			productName = RockPaperScissors;
-			productReference = 028A41092B3A723000EFC99C /* RockPaperScissors.app */;
+			productReference = 028A41092B3A723000EFC99C /* L&C's RPS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				028A41082B3A723000EFC99C /* RockPaperScissors */,
+				028A41082B3A723000EFC99C /* L&C's RPS */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +192,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1524252B3BC05100A71214 /* KnightWarrior.otf in Resources */,
 				028A41142B3A723100EFC99C /* Preview Assets.xcassets in Resources */,
+				2E1524302B3E620700A71214 /* Select.m4a in Resources */,
 				028A41112B3A723100EFC99C /* Assets.xcassets in Resources */,
+				2E15242F2B3E620700A71214 /* YouLose.mp3 in Resources */,
+				2E1524322B3E620700A71214 /* YouWin.mp3 in Resources */,
+				2E1524312B3E620700A71214 /* Start.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2B507A2B3FB9DF00EE890D /* TouchDetectingView.swift in Sources */,
+				027CF9B22B3A7FFF00346D8D /* Model.swift in Sources */,
 				028A410F2B3A723000EFC99C /* ContentView.swift in Sources */,
+				028A411D2B3A763000EFC99C /* WelcomeView.swift in Sources */,
+				028A411F2B3A763D00EFC99C /* GameView.swift in Sources */,
 				028A410D2B3A723000EFC99C /* RockPaperScissorsApp.swift in Sources */,
+				027CF9B42B3A811500346D8D /* LoadingView.swift in Sources */,
+				2E2B50792B3FB9DF00EE890D /* TouchDetectingViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,25 +349,32 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissors/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissors/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DJEBF62S3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "L&C's RPS";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = LC.RockPaperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -300,25 +385,32 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissors/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissors/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DJEBF62S3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "L&C's RPS";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = LC.RockPaperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -334,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		028A41172B3A723100EFC99C /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
+		028A41172B3A723100EFC99C /* Build configuration list for PBXNativeTarget "L&C's RPS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				028A41182B3A723100EFC99C /* Debug */,
